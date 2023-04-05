@@ -9,59 +9,44 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: c45f2cd1d67554141942077a2065de33
   - enabled: 1
-    path: Assets/Scenes/Example Levels/Stage A.unity
+    path: Assets/Scenes/Level Select.unity
+    guid: 4b061fba24320ba4587c7ba01d125e81
+  - enabled: 1
+    path: Assets/Scenes/Extra Levels/World 1/1A.unity
+    guid: aabf6d73ce128ab4db1ea6acda4316d0
+  - enabled: 1
+    path: Assets/Scenes/Extra Levels/World 1/1B.unity
     guid: 041a3ea23914cb64291d08c18df1d046
   - enabled: 1
-    path: Assets/Scenes/Example Levels/Stage B.unity
-    guid: 1f594991bc204d14aa9d736b8d2d0114
+    path: Assets/Scenes/Extra Levels/World 1/1C.unity
+    guid: 3d2219538bed9c64ea7d57e6ee1a5573
   - enabled: 1
-    path: Assets/Scenes/Example Levels/Stage C.unity
-    guid: 11fcc95f1e5f972488373e286dbb04ea
+    path: Assets/Scenes/Extra Levels/World 1/1D.unity
+    guid: 5e91fdebef2016841a3d37c547192d5a
   - enabled: 1
-    path: Assets/Scenes/Example Levels/Stage D.unity
-    guid: 6a8c0dea949cf664397db7cb3ddfb674
+    path: Assets/Scenes/Extra Levels/World 1/1E.unity
+    guid: f25f957386ac0b242825aed828316754
   - enabled: 1
-    path: Assets/Scenes/Example Levels/Stage E.unity
-    guid: b8be04f5593f1da4a97c3fb9ccb5bda9
+    path: Assets/Scenes/Extra Levels/World 1/1F.unity
+    guid: 0ddf8be5519663e4693728e9801b4850
   - enabled: 1
-    path: Assets/Scenes/Example Levels/Stage F.unity
-    guid: 592443a6a5ce06043a0445fa3d394df6
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage G.unity
+    path: Assets/Scenes/Extra Levels/World 1/1G.unity
     guid: abd244215ef07d34db1509cd5ee31550
   - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage H.unity
+    path: Assets/Scenes/Extra Levels/World 1/1H.unity
     guid: cbef4b2e726336144a6ad7a16c540fc6
-  - enabled: 0
-    path: Assets/Scenes/Extra Levels/Stage I.unity
-    guid: de8fb7a1234f13442bfb89075fc72891
   - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage J.unity
-    guid: b0b32da436d76534da4396485b73a91e
+    path: Assets/Scenes/Extra Levels/World 2/2A.unity
+    guid: 4bfdb0c3274a75d4d81801857868d8aa
   - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage K.unity
-    guid: 136b8824fd1936e409081c913a93c2b5
+    path: Assets/Scenes/Extra Levels/World 2/2B.unity
+    guid: 957e478952ba0a74e85bf32e5930b8de
   - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage L.unity
-    guid: c80ddd9f579252a45ba72360067946da
+    path: Assets/Scenes/Extra Levels/World 2/2C.unity
+    guid: ff7974d8f5685cb448a2e78e5cd66b8c
   - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage M.unity
-    guid: bf061b640d232d04c8294c0c81e38fdf
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage N.unity
-    guid: ba1f6ed9f1079c34388e27dc2d177cdb
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage O.unity
-    guid: 137d0de640328c44da818b4d2304d2db
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage P.unity
-    guid: e229864289c5c42409b46fbc596cfe13
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage Q.unity
-    guid: ed6b4ebcc0a43d946b27fc36942b77d7
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/Stage R.unity
-    guid: a643184d6888949449331dc6ddad4d8d
+    path: Assets/Scenes/Extra Levels/World 2/2D.unity
+    guid: 46507a7b539d56c4b873ba4f65783e3e
   - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: 4463611643524d949b6d2ebd536f2400

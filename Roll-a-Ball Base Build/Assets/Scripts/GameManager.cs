@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     [Tooltip("For each player in the scene. (2 max)")]
-    [SerializeField] private GameObject[] players;
+    [SerializeField] private GameObject[] players = null;
     [SerializeField] private bool canSwitch = false;
     private bool toggle = true;
 
@@ -26,6 +26,11 @@ public class GameManager : MonoBehaviour
         // Load the next scene after the current scene
         SceneManager.LoadScene(currentScene.buildIndex + 1);
     }
+    public void LoadScene(int sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
+    }
+
     public void Restart()
     {
         // Get the current scene
