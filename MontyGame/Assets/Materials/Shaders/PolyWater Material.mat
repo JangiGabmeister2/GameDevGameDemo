@@ -59,7 +59,7 @@ Material:
     - _Water_Height: 0.076
     - _Wave_Scroll_Speed: 0.157
     m_Colors:
-    - _Deep_Color: {r: 0.23113209, g: 0.61254066, b: 1, a: 0}
+    - _Deep_Color: {r: 0.23137254, g: 0.7179523, b: 1, a: 0}
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Shallow_Color: {r: 0.5990566, g: 0.9402102, b: 1, a: 0}
   m_BuildTextureStacks: []

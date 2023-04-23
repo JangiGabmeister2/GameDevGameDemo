@@ -15,7 +15,8 @@ public class GameManager : MonoBehaviour
     private bool toggle = true;
 
     private void Awake()
-    {
+    {        
+        Application.targetFrameRate = 60;
         instance = this;
     }
 
@@ -26,9 +27,15 @@ public class GameManager : MonoBehaviour
         // Load the next scene after the current scene
         SceneManager.LoadScene(currentScene.buildIndex + 1);
     }
+
     public void LoadScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
+    }
+
+    public void RestartAfterTime(float delay)
+    {
+        Invoke(nameof(Restart), delay);
     }
 
     public void Restart()

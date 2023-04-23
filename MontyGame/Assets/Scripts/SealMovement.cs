@@ -19,6 +19,7 @@ public class SealMovement : MonoBehaviour
         MoveTransform();
     }
 
+    //moves the seal transform along an array of waypoint empty gameobjects in the scene
     private void MoveTransform()
     {
         Vector3 objectPosition = positions[positionsIndex].position;
@@ -26,16 +27,16 @@ public class SealMovement : MonoBehaviour
         if (Vector3.Distance(transform.position, objectPosition) < 0.5f)
         {
             positionsIndex++;
+            RotateTransform(objectPosition);
         }
 
         if (positionsIndex == positions.Length)
         {
             System.Array.Reverse(positions);
             positionsIndex = 0;
-            RotateTransform(objectPosition);
         }
     }
-
+    
     private void RotateTransform(Vector3 position)
     {
         Vector3 direction = (transform.position - position).normalized;

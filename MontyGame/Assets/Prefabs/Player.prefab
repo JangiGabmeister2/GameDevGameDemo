@@ -64,15 +64,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c13d31164cb724c8fd6fb262bea74d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  rb: {fileID: 0}
-  invertXControls: 0
-  invertZControls: 0
-  speedBoost: 0
-  boostCountDown: 1
+  playerFall:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  playerChild: {fileID: 1373360244558368534}
+  moveSpeed: 15
+  jumpSpeed: 5
+  invertUpDown: 0
+  invertLeftRight: 0
   bounceSound: {fileID: 0}
   speedSound: {fileID: 0}
   pickupSound: {fileID: 0}
+  waterSplash: {fileID: 0}
 --- !u!136 &420904973446444687
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -80,7 +95,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478762465465993939}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2244eed9a6efa2444ba947e04b7e3999, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -205,3 +220,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 22ff2496f6a902f4a90ebfec53eb9616, type: 3}
   m_PrefabInstance: {fileID: 1478762466102405373}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1748794620822410668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 22ff2496f6a902f4a90ebfec53eb9616, type: 3}
+  m_PrefabInstance: {fileID: 1478762466102405373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1080531677
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748794620822410668}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b5c0c024fd9e68418653212921498ab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

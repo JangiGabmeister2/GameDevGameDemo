@@ -6,6 +6,7 @@ TagManager:
   tags:
   - WindArea
   - Enemy
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 200012991
     locked: 0
