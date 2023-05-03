@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 120099
+  controlID: 19
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 120100
+  controlID: 20
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 120075
+  controlID: 77
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 120076
+  controlID: 78
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -296,8 +296,8 @@ MonoBehaviour:
     y: 0
     width: 445
     height: 1307
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -431,9 +431,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 58020000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0c66e0ff06aae0ffa6dce0ffeeffe0ff22cbe1ffb0d9e1ffa6ece1ff8ef6e1ff1410e2ff4249e2ff7e4be2ff5864e2ff88a5e2ffccece2ff46f7e2ff96f7e2ffd205e3fff605e3ff6208e3ff761be3ff7075e3ff9687e3ff8268e4ff1469e4ffb027e7ff0228e7ff122fe7ff5a30e7ff6e31e7ffb232e7ff2834e7ff2036e7ff6037e7ff2e3ae7ff66cfe7ff3c0ce8ff5221e8ffc636e8ffa045e8ff4455e8ff2265e8ff1880e8ff7411eaff96c6eaffecdfeaffea7aebff0e7bebff767cebff9cc0ebff44cbebff1014ecffd842ecff140bedff7e53edff8253edfff253edff0263edff5c72edffc681edff9096edffb4a5edffd8b6edff9ad2edff5a32eeffac44eeff8a45eeff5057eeff6e66eeff34d9eeff00dbeeff32ddeeff78f3eeff46f6eeff1a58f0ff1259f0ff1868f0ff2068f0ff2668f0ff6068f0ffba69f0ff7e78f0ff3888f0ff3499f0ff769af0ff9e6af3ff066cf3ff6a7ff3fff297f3ffead5f3ffa4fdf3ffee35f4ff9e7cf5ff5e99f5ff3e9af5ff7ec1f5ff6ec9f5ff627ef6ff867ef6ff8482f6ff9c83f6ffa0bff6ff7a35f7ff6a46f7ff9e1efaff7229faffca85fbff40a2fbff64a2fbffdea2fbff26a3fbff4ab2fbffd0c6fbff18d9fbff12ebfbff94effbff94f0fbffecf3fbffc813fcffae22fcfffe31fcffb641fcff1851fcff7460fcff8e7efcff3680fcff6682fcffe091fcfffea4fcff48b4fcff5cf9fcff60f9fcff80f9fcffc4f9fcff4405fdff5e20fdff0231fdff0431fdff7a35fdffe447fdff705cfdff5a8bfdff2cf8ffff32fbffff10920000d2930000e6960000949900003aa4000048a500000eb300005cb3000072b30000e8b300001cb4000070b400003a70030052710300e6750300da58050002230a00168d0a00e67e0b000e7f0b00147f0b00247f0b00287f0b00707f0b00c27f0b002cdc0c0064b70e00eae70e0002e80f0058e80f00b8ea0f00b4291100b42c110062fa1200e8fa120098fc1200
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2013,22 +2013,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\arjay.comabig1\Documents\GitHub\GameDevGameDemo\MontyGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 94680000
-    m_LastClickedID: 26772
-    m_ExpandedIDs: 0000000092680000946800009668000000ca9a3bffffff7f
+    m_SelectedIDs: 766b0000
+    m_LastClickedID: 27510
+    m_ExpandedIDs: 00000000766b0000786b00007a6b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2056,7 +2056,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 416}
     m_SelectedIDs: 8ce8ffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000926800009468000096680000a2680000a468000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000766b0000786b00007a6b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -7,15 +7,17 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{
+{    
     public static GameManager instance;
     [Tooltip("For each player in the scene. (2 max)")]
     [SerializeField] private GameObject[] players = null;
     [SerializeField] private bool canSwitch = false;
     private bool toggle = true;
+    public bool cursorVisible = false;
 
     private void Awake()
     {
+        Cursor.visible = cursorVisible;
         Application.targetFrameRate = 60;
         instance = this;
     }
