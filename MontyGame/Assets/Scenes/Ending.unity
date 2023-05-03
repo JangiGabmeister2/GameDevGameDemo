@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THE WORLD IS SAVED
+  m_text: TO BE CONTINUED...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a9565c9cf3c6c847ae666ed60090863, type: 2}
   m_sharedMaterial: {fileID: -2971759458239425667, guid: 1a9565c9cf3c6c847ae666ed60090863, type: 2}
@@ -1334,7 +1334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16, y: 129}
+  m_AnchoredPosition: {x: -140.6, y: 129}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2046740331
@@ -1357,7 +1357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: WOW!
+  m_text: OH NO!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a9565c9cf3c6c847ae666ed60090863, type: 2}
   m_sharedMaterial: {fileID: -2971759458239425667, guid: 1a9565c9cf3c6c847ae666ed60090863, type: 2}

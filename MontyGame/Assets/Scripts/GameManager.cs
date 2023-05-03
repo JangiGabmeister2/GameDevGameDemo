@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     private bool toggle = true;
 
     private void Awake()
-    {        
+    {
         Application.targetFrameRate = 60;
         instance = this;
     }
