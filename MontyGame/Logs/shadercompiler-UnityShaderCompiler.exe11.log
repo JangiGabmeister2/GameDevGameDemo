@@ -12,3 +12,4 @@ Cmd: compileSnippet
   error: 1 plat 4 at Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/CGIncludes/UnityCG.cginc(516): pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
  ok=1 outsize=11282
 
+Cmd: shutdown
