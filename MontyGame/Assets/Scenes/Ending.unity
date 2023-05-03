@@ -1465,6 +1465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: []
   canSwitch: 0
+  cursorVisible: 1
 --- !u!4 &2120396121
 Transform:
   m_ObjectHideFlags: 0

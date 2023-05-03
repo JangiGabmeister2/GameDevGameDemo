@@ -296,6 +296,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!136 &292321477
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1643,6 +1644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: []
   canSwitch: 0
+  cursorVisible: 1
 --- !u!4 &2120396121
 Transform:
   m_ObjectHideFlags: 0
@@ -2107,6 +2109,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1478762466881036009
 Transform:
   m_ObjectHideFlags: 0
@@ -2161,6 +2164,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1748794620953690942
 GameObject:
   m_ObjectHideFlags: 0

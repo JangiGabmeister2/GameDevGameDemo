@@ -807,7 +807,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _speed: 0.5
+  _speed: 0.4
   cooldown: 3
   _pingPong: 1
   _auto: 1
@@ -884,7 +884,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _speed: 0.5
+  _speed: 0.4
   cooldown: 3
   _pingPong: 1
   _auto: 1
@@ -1286,7 +1286,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _speed: 0.5
+  _speed: 0.4
   cooldown: 3
   _pingPong: 1
   _auto: 1
@@ -2343,6 +2343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: []
   canSwitch: 0
+  cursorVisible: 0
 --- !u!4 &1186058216
 Transform:
   m_ObjectHideFlags: 0
@@ -2528,7 +2529,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _speed: 0.5
+  _speed: 0.4
   cooldown: 3
   _pingPong: 1
   _auto: 1
@@ -2799,7 +2800,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _speed: 0.5
+  _speed: 0.4
   cooldown: 3
   _pingPong: 1
   _auto: 1
