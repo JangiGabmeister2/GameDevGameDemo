@@ -5,8 +5,6 @@ using UnityEngine;
 public class AnimationConfig : MonoBehaviour
 {
     public float animationSpeed = 1;
-    [Range(0,1)]
-    public float animationStep;
 
     private Animator animator;
 
@@ -18,11 +16,10 @@ public class AnimationConfig : MonoBehaviour
     private void Update()
     {
         animator.speed = animationSpeed;
-        animator.playbackTime = animationStep;
     }
 
     public void Play()
-    {
+    {        
         animator.Play(0);
     }
 }

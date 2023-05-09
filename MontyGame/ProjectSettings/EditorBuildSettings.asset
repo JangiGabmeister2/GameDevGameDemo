@@ -19,7 +19,7 @@ EditorBuildSettings:
     guid: 4b061fba24320ba4587c7ba01d125e81
   - enabled: 1
     path: Assets/Scenes/Extra Levels/World 1/1A.unity
-    guid: aabf6d73ce128ab4db1ea6acda4316d0
+    guid: 041a3ea23914cb64291d08c18df1d046
   - enabled: 1
     path: Assets/Scenes/Extra Levels/World 1/1B.unity
     guid: a583037c10b364d4fa7103b579b6a11b
@@ -44,18 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Extra Levels/World 1/Final.unity
     guid: 5be1ca9ace4ffb54bb0220cb7a46bc78
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/World 2/2A.unity
-    guid: 4bfdb0c3274a75d4d81801857868d8aa
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/World 2/2B.unity
-    guid: 957e478952ba0a74e85bf32e5930b8de
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/World 2/2C.unity
-    guid: ff7974d8f5685cb448a2e78e5cd66b8c
-  - enabled: 1
-    path: Assets/Scenes/Extra Levels/World 2/2D.unity
-    guid: 46507a7b539d56c4b873ba4f65783e3e
   - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: 4463611643524d949b6d2ebd536f2400
